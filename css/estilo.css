@@ -1,0 +1,8 @@
+body {background: #e2f3f5; }
+.titulos {color: #22d1ee; background: #0e153a; text-align: center; font-size: 35px; text-decoration:underline;}
+.p {color: #0e153a; font-family: monospace; font-size: 16px; text-align: center; background: #fdfdfd}
+.foto {text-align: center;  }
+img {height: 250px; width: 250px;}
+.receta {font-family: monospace; color: #0e153a; font-size: 16px; background: #fdfdfd}
+.subtitulos{font-size: 30px; font-family: monospace; background: #c5e3f6; color: #0e153a; }
+.inframe {text-align: center;  }
