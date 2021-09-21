@@ -6,3 +6,19 @@ img {height: 250px; width: 250px;}
 .receta {font-family: monospace; color: #0e153a; font-size: 16px; background: #fdfdfd}
 .subtitulos{font-size: 30px; font-family: monospace; background: #c5e3f6; color: #0e153a; }
 .inframe {text-align: center;  }
+nav {text-align: center;}
+.navegador {background-color:#a1eafb; float: center; color: #3d5af1; padding: 10px 30px; display: inline-block;text-decoration: none; font-family: monospace; font-size: 20px }
+.navegador:hover{background-color:#0e153a }
+
+.locro{ width: 400px; height: 400px}
+aside {float: left; width: 48%}
+
+section { background-color:#a1eafb; float: left; width: 50% }
+.volver{font-family: monospace; font-size: 25px; color: #4FC3F7 }
+.volver:hover{background-color:#3d5af1 }
+.foot{float: left;width: 100%}
+header{background-color: #3d5af1; text-align: center; font-family: monospace; }
+footer{background-color: #303a52; text-align: center; font-family: monospace; width: 100% ;float: left;}
+.redes {width: 100px; height: 100px; }
+
+.whatsapp {position: fixed; top: 75%; right: 1%; width: 150px; height: 150px}
