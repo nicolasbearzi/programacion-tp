@@ -9,9 +9,12 @@ img {height: 250px; width: 250px;}
 nav {text-align: center;}
 .navegador {background-color:#a1eafb; float: center; color: #3d5af1; padding: 10px 30px; display: inline-block;text-decoration: none; font-family: monospace; font-size: 20px }
 .navegador:hover{background-color:#0e153a }
+.fotosection:hover{background-color: #f4fa9c}
 
 .locro{ width: 400px; height: 400px}
 aside {float: left; width: 48%}
+
+.receta ::after {content: "."}
 
 section { background-color:#a1eafb; float: left; width: 50% }
 .volver{font-family: monospace; font-size: 25px; color: #4FC3F7 }
@@ -20,5 +23,7 @@ section { background-color:#a1eafb; float: left; width: 50% }
 header{background-color: #3d5af1; text-align: center; font-family: monospace; }
 footer{background-color: #303a52; text-align: center; font-family: monospace; width: 100% ;float: left;}
 .redes {width: 100px; height: 100px; }
+.redes:hover {background-color:#f4fa9c }
 
 .whatsapp {position: fixed; top: 75%; right: 1%; width: 150px; height: 150px}
+.whatsapp:hover{background-color: #a7ff83}
