@@ -1,29 +1,36 @@
+@font-face {
+  font-family: "mayusculas"; src: url("../fuentes/BowlbyOneSC-Regular.ttf") format("truetype");
+
+} @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+
 body {background: #e2f3f5; }
-.titulos {color: #22d1ee; background: #0e153a; text-align: center; font-size: 35px; text-decoration:underline;}
-.p {color: #0e153a; font-family: monospace; font-size: 16px; text-align: center; background: #fdfdfd}
+.titulos {color: #22d1ee; background: #0e153a; text-align: center; font-size: 3rem ; text-decoration:underline; font-family: "mayusculas"}
+.p {color: #0e153a; font-family: 'Source Code Pro', monospace; font-size: 1.3em; text-align: center; background: #fdfdfd}
 .foto {text-align: center;  }
-img {height: 250px; width: 250px;}
-.receta {font-family: monospace; color: #0e153a; font-size: 16px; background: #fdfdfd}
-.subtitulos{font-size: 30px; font-family: monospace; background: #c5e3f6; color: #0e153a; }
+img {height: 25vh; width: 15vw;}
+.receta {font-family: 'Source Code Pro', monospace;; color: #0e153a; font-size: 1.3em    ; background: #fdfdfd}
+.subtitulos{font-size: 2rem; font-family: monospace; background: #c5e3f6; color: #0e153a; }
 .inframe {text-align: center;  }
 nav {text-align: center;}
 .navegador {background-color:#a1eafb; float: center; color: #3d5af1; padding: 10px 30px; display: inline-block;text-decoration: none; font-family: monospace; font-size: 20px }
 .navegador:hover{background-color:#0e153a }
 .fotosection:hover{background-color: #f4fa9c}
 
-.locro{ width: 400px; height: 400px}
-aside {float: left; width: 48%}
+.locro{ width: 30vw; }
+aside {float: left; width: 48vw; }
 
 .receta ::after {content: "."}
 
-section { background-color:#a1eafb; float: left; width: 50% }
+section { background-color:#a1eafb; float: left; width: 50vw }
 .volver{font-family: monospace; font-size: 25px; color: #4FC3F7 }
 .volver:hover{background-color:#3d5af1 }
-.foot{float: left;width: 100%}
+.foot{float: left;width: 100vw}
 header{background-color: #3d5af1; text-align: center; font-family: monospace; }
-footer{background-color: #303a52; text-align: center; font-family: monospace; width: 100% ;float: left;}
+footer{background-color: #303a52; text-align: center; font-family: monospace; width: 100vw ;float: left;}
 .redes {width: 100px; height: 100px; }
 .redes:hover {background-color:#f4fa9c }
-
-.whatsapp {position: fixed; top: 75%; right: 1%; width: 150px; height: 150px}
+.whatsapp {position: fixed; top: 75%; right: 1%; width: 10vw; height: 15vh}
 .whatsapp:hover{background-color: #a7ff83}
