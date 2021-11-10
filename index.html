@@ -13,29 +13,35 @@
   <meta name="author" content="nicolas bearzi">
 
   </head>
-  <body>
+  <body >
 
-    <header>
+    <header id="grey">
+<button type="button" onclick="modooscuro()">modo oscuro</button>
+<script>
+  alert ("¿Esta dispuesto a ver el mejor sitio del mundo mundial?")
+</script>
 
-      <h1 class="titulos">RECETAS ARGENTINAS</h1>
+
+      <h1 class="titulos" id="myP" >RECETAS ARGENTINAS</h1>
 <img class="bandera" src="imagenes/Argentina.png" alt="bandera argentina">
+
     </header>
 
-    <nav>
+    <nav id="grey" >
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="entrada.html"> ENTRADAS TRADICIONALES </a>
+          <a class="navbar-brand" href="entrada.html" > ENTRADAS TRADICIONALES </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="postres.html">POSTRES ARGENTINOS</a>
+                <a class="nav-link active" aria-current="page" href="postres.html" >POSTRES ARGENTINOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="comida.html">COMIDAS TRADICIONALES ARGENTINAS </a>
+                <a class="nav-link" href="comida.html"  >COMIDAS TRADICIONALES ARGENTINAS </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">CONTACTOS </a>
@@ -57,7 +63,7 @@
 </nav>
 <br> <br> <br><br>
 
-<section >
+<section id="grey">
   <div class="container">
     <div class="row">
 
@@ -65,8 +71,8 @@
         <div class="card" style="width: 18rem;">
           <img src="imagenes/empanada.jpg" class="card-img-top" alt="imagen empanada">
           <div class="card-body">
-            <h5 class="card-title">Entradas Tradicionales</h5>
-            <p class="card-text">La mejor de recetas de empanadas tucumanas.</p>
+            <h5 class="card-title"  >Entradas Tradicionales</h5>
+            <p class="card-text"  >La mejor de recetas de empanadas tucumanas.</p>
             <a href="entrada.html" class="btn btn-warning">RECETA</a>
           </div>
         </div>
@@ -75,8 +81,8 @@
         <div class="card" style="width: 18rem;">
           <img src="imagenes/postre.jpg" class="card-img-top" alt="imagen de postre">
           <div class="card-body">
-            <h5 class="card-title">POSTRES</h5>
-            <p class="card-text">El mejor postre y asi de facil se hace.</p>
+            <h5 class="card-title" >POSTRES</h5>
+            <p class="card-text" >El mejor postre y asi de facil se hace.</p>
             <a href="postres.html" class="btn btn-warning">RECETA</a>
           </div>
         </div>
@@ -86,8 +92,8 @@
         <div class="card" style="width: 18rem;">
           <img src="imagenes/locro.jpg" class="card-img-top" alt="imagen locro">
           <div class="card-body">
-            <h5 class="card-title">COMIDA TRADICIONAL ARGENTINA</h5>
-            <p class="card-text">Receta tipica de locro argentino.</p>
+            <h5 class="card-title" >COMIDA TRADICIONAL ARGENTINA</h5>
+            <p class="card-text" >Receta tipica de locro argentino.</p>
             <a href="comida.html" class="btn btn-warning">RECETA</a>
           </div>
         </div>
@@ -100,13 +106,13 @@
 </section>
 
 <br>
-<footer>
+<footer id="grey">
 <a href="https://api.whatsapp.com/send/?phone=5491127471030&text&app_absent=0"><img class="whatsapp" src="imagenes/whatsapp.png" alt="whatsapp"></a>
-<a href="https://www.instagram.com/"> <img class="redes" src="imagenes/instagram.png" alt="instagram"> </a> <label for=""> Seguinos en Instagram</label>
-<a href="https://twitter.com/i/flow/login"> <img  class="redes" src="imagenes/twitter.png" alt="twitter"> </a> <label for="" >Seguinos en Twitter</label>
+<a href="https://www.instagram.com/"> <img class="redes" src="imagenes/instagram.png" alt="instagram"> </a> <label for="" > Seguinos en Instagram</label>
+<a href="https://twitter.com/i/flow/login"> <img  class="redes" src="imagenes/twitter.png" alt="twitter"> </a> <label for=""   >Seguinos en Twitter</label>
 
 
-
+<button type="button" onclick="autor()" class="btn btn-info">Autor</button>
 
 </footer>
 
@@ -114,6 +120,8 @@
 
 
 
+<script src="js/estilojava.js">
 
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <body>
