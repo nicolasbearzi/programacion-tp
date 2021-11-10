@@ -22,7 +22,6 @@ nav {text-align: center;}
 .locro{ width: 30vw; }
 aside {float: left; width: 48vw; }
 
-.receta ::after {content: "."}
 
 section { background-color:#a1eafb ;  display: flex; justify-content: space-around; }
 
@@ -41,7 +40,7 @@ section { background-color:#a1eafb ;  display: flex; justify-content: space-arou
 .volver{font-family: monospace; font-size: 25px; color: #4FC3F7 }
 .volver:hover{background-color:#3d5af1 }
 .foot{float: left;width: 100vw}
-header{background-color: #0e153a; text-align: center; font-family: monospace; display: flex; justify-content: center;}
+header{background-color: #0e153a; color:#22d1ee ; font-family: "mayusculas"; display: flex; justify-content: center; font-size: 2em}
 footer{background-color: #303a52; text-align: center; font-family: monospace; width: 100vw  ;float: left; display:flex;justify-content:center;  }
 .redes {width: 100px; height: 100px; }
 .redes:hover {background-color:#f4fa9c }
